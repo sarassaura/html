@@ -1,0 +1,28 @@
+p {
+  font-size: larger;
+}
+
+#p-first {
+  color: rgba(180, 112, 16, 0.779);
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.color-green {
+  color: rgb(18, 212, 18);
+  text-align: center;
+}
+
+h1 {
+  color: rgb(100, 100, 0);
+}
+
+img {
+  height: 200px;
+  width: 200px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
