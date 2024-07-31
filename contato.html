@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contato</title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="./index.html">Primeira Página</a></li>
+        <li><a href="./segunda.html">Segunda Página</a></li>
+        <li><a href="./sobre.html">Sobre</a></li>
+        <li><a href="./contato.html">Contato</a></li>
+      </ul>
+    </nav>
+
+    <br /><br />
+
+    <button onclick="alert('hello')">Clica em Mim</button>
+
+    <br /><br />
+
+    <form>
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" />
+      <button type="submit">Enviar</button>
+    </form>
+
+    <script>
+      // const button = document.querySelector("button");
+      // button.addEventListener("click", () => {
+      //   alert("Clicou em Mim");
+      // });
+
+      const form = document.querySelector("form");
+      form.addEventListener("submit", (event) => {
+        var nome = document.querySelector("#nome").value;
+        event.preventDefault();
+        alert("Formulário Enviado: " + nome);
+      });
+    </script>
+  </body>
+  <script src="./javascript/scripts.js"></script>
+</html>

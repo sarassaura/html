@@ -26,3 +26,8 @@ img {
   display: flex;
   align-items: center;
 }
+
+input {
+  display: block;
+  margin: 4px 0;
+}
